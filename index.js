@@ -3,7 +3,7 @@ let { spawn } = require('child_process')
 let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
-const CFonts  = require('cfonts')
+/**const CFonts  = require('cfonts')
 CFonts.say('Jhusi\nTe Amo\nJaashi', {
   font: 'chrome',
   align: 'center',
@@ -14,7 +14,7 @@ CFonts.say(`Gracias a toda la gente que me apoya, los amo UwU`, {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-
+*/
 var isRunning = false
 /**
  * Start a js file
